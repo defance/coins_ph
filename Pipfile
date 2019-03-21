@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+factory_boy = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+dj_database_url = "*"
+gunicorn = "*"
+mysqlclient = "*"
+
+[requires]
+python_version = "3.6"
